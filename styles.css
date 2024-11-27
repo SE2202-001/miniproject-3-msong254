@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #filters, #sorting {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  #filters label, #sorting button {
+    margin: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .job:hover {
+    background-color: #f1f1f1;
+  }
+  
+  #errorMessages {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #jobListings {
+    margin-top: 20px;
+  }
+  
